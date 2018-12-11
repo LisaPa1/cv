@@ -1,32 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani");
+
 .App {
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2em;
+}
+
+.mynavbar {
+  position: fixed;
+  left: 0;
+  background-color: #ad3643;
+  color: white !important;
+  justify-content: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+@media (orientation: portrait) {
+  .mynavbar {
+    top: 0;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .mynavbar > .monbloc > .navbarPhoto {
+    width: 45%;
+    float: left;
+  }
+
+  .mynavbar > .monbloc > .navbarPhoto img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: 10%;
+  }
+
+  .mynavbar > .monbloc > .navbarPhoto > .navDescription {
+    display: none;
+  }
+
+  .mynavbar > .monbloc > .navbarPhoto > .type-wrap {
+    height: 30vmin;
+    margin-top: 4vmin;
+    font-size: 8vmin;
+  }
+
+  .mynavbar > .logosSocial {
+    width: 100%;
+    white-space: nowrap !important;
+  }
+
+  .mynavbar > .logosSocial img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .mynavbar > .contacts {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 0.6em;
+    margin: 0 auto;
+    padding-top: 0 !important;
+  }
+
+  .mainPage {
+    padding: 70vmin 10vmin 10vmin 10vmin;
+    text-align: left;
+  }
+}
+@media (orientation: landscape) {
+  .mynavbar {
+    top: 0;
+    height: 100%;
+    width: 27%;
+    flex-direction: column;
+  }
+
+  .mynavbar > .monbloc > .navbarPhoto img {
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+  }
+
+  .mainPage {
+    padding: 0vmin 10vmin 10vmin 30%;
+    text-align: left;
+  }
+}
+
+.navDescription {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 0.6em;
+  font-style: italic;
+  width: 70%;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.type-wrap {
+  height: 20vmin;
+  margin-top: 3vmin;
+}
+
+.itemLogoSocial {
+  width: 33%;
+  float: left;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.contacts {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 0.6em;
+  width: 70%;
+  margin: 0 auto;
+  font-weight: normal;
+  padding-top: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.NavLink {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mainItem {
+  margin-top: 5vmin;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainPage h2 {
+  color: #ad3643;
+  font-weight: bold;
+}
+
+.keyWords {
+  font-weight: bold;
 }
