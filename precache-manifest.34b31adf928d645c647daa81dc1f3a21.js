@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/cv/static/media/ElizavetaCV.6b2244a0.jpg"
   },
   {
-    "revision": "5926d9acc954a81fad665b578b3e911b",
-    "url": "/cv/static/media/CV_Elizaveta_Patrusheva.5926d9ac.pdf"
+    "revision": "0b4a2ceda30982370fd765ef2e78e657",
+    "url": "/cv/static/media/CV_Elizaveta_Patrusheva.0b4a2ced.pdf"
   },
   {
     "revision": "084ac45aee39707f976e",
     "url": "/cv/static/js/runtime~main.084ac45a.js"
   },
   {
-    "revision": "55614a6e8ebe86e9daf0",
-    "url": "/cv/static/js/main.55614a6e.chunk.js"
+    "revision": "ce1e344a9439713b8694",
+    "url": "/cv/static/js/main.ce1e344a.chunk.js"
   },
   {
     "revision": "b73deeb0325995e79a0a",
     "url": "/cv/static/js/1.b73deeb0.chunk.js"
   },
   {
-    "revision": "55614a6e8ebe86e9daf0",
+    "revision": "ce1e344a9439713b8694",
     "url": "/cv/static/css/main.869776d0.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/cv/static/css/1.e3c470db.chunk.css"
   },
   {
-    "revision": "c186701cf57c461f603555f240536603",
+    "revision": "51346c502f2fa91cb7ff1ffa9ff8c04d",
     "url": "/cv/index.html"
   }
 ];
