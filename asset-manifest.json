@@ -1,7 +1,7 @@
 {
   "main.css": "/cv/static/css/main.5f717bf6.chunk.css",
-  "main.js": "/cv/static/js/main.510f604e.chunk.js",
-  "main.js.map": "/cv/static/js/main.510f604e.chunk.js.map",
+  "main.js": "/cv/static/js/main.d16fee0c.chunk.js",
+  "main.js.map": "/cv/static/js/main.d16fee0c.chunk.js.map",
   "static/css/1.dadf200c.chunk.css": "/cv/static/css/1.dadf200c.chunk.css",
   "static/js/1.feb6479c.chunk.js": "/cv/static/js/1.feb6479c.chunk.js",
   "static/js/1.feb6479c.chunk.js.map": "/cv/static/js/1.feb6479c.chunk.js.map",
@@ -12,6 +12,6 @@
   "static/media/CV_Elizaveta_Patrusheva.pdf": "/cv/static/media/CV_Elizaveta_Patrusheva.66c4ac43.pdf",
   "static/css/1.dadf200c.chunk.css.map": "/cv/static/css/1.dadf200c.chunk.css.map",
   "index.html": "/cv/index.html",
-  "precache-manifest.fce08fe1dc829a3699bc65c11f7b6cdf.js": "/cv/precache-manifest.fce08fe1dc829a3699bc65c11f7b6cdf.js",
+  "precache-manifest.4857074c49c5712b9c112da5c74091f0.js": "/cv/precache-manifest.4857074c49c5712b9c112da5c74091f0.js",
   "service-worker.js": "/cv/service-worker.js"
 }
