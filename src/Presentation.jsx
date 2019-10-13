@@ -5,26 +5,39 @@ class Pres extends Component {
     return (
       <div className="mainPage">
         <div className="mainItem">
-          <h2>Compétences :</h2>
+        <h2>Compétences :</h2>
           <ul>
-            <li>React</li>
+            <li>React (Redux, Context, Hooks)</li>
             <li>Javascript ES6</li>
             <li>Node.js</li>
             <li>MySQL</li>
-            <li>Git - Github</li>
-            <li>HTML / CSS / Bootstrap</li>
+            <li>TypeScript</li>
+            <li>Git - Github / Bitbucket</li>
+            <li>HTML / CSS / Bootstrap / Material-UI</li>
             <li>Méthode Agile - SCRUM</li>
           </ul>
         </div>
 
         <div className="mainItem">
-          <h2>Expériences professionnelles</h2>
+        <h2>Expériences professionnelles</h2>
+          <h3>Développeuse Front-End</h3>
+          <p>Février 2019 - Septembre 2019</p>
+          <p>Aixia Systèmes - Limonest, France</p>
+          <p>Éditeur de logiciel spécialisé dans la location de véhicules</p>
+          <ul>
+            <li>Réalisation des composants Front-End en React</li>
+            <li>Réalisation des modules Node.js pour le Back-End de l'application</li>
+            <li>Mise en place d'une API gateway avec Node.js</li>
+            <li>Application structurée en micro-services</li>
+          </ul>
+        </div>
+        <div className="mainItem">
           <h3>Projets étudiants Wild Code School</h3>
           <p>
-            Projet 3 (en cours) : réalisation en mode{" "}
+            Projet 3 : réalisation en mode{" "}
             <span className="keyWords">Agile</span> d’une application permettant
             de retrouver des activités nature dans la région de Loire, pour
-            l'association Loire En Vert.
+            l'association Loire En Vert. Aujourd'hui l'application est disponble sur le PlayStore.
           </p>
           <p>
             Projet 2 : réalisation du projet en mode{" "}
@@ -87,7 +100,7 @@ class Pres extends Component {
         </div>
 
         <div className="mainItem">
-          <h2>Formation</h2>
+        <h2>Formation</h2>
           <h3>Développement Web - JavaScript</h3>
           <p>Wild Code School de Lyon</p>
           <p>Septembre 2018 - Janvier 2019</p>
