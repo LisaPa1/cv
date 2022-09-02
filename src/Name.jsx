@@ -4,7 +4,7 @@ import Typed from "typed.js";
 class TypedName extends Component {
   componentDidMount() {
     const options = {
-      strings: ["Elizaveta <br/>Patrusheva "],
+      strings: ["Elizaveta <br/>Patrusheva<br/> "],
       typeSpeed: 100
     };
     this.typed = new Typed(this.el, options);
