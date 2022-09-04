@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "29af0a310fe59cdd6872",
+    "revision": "bbc0aa5f8530a6b98801",
     "url": "/cv/static/css/main.ac98893e.chunk.css"
   },
   {
-    "revision": "29af0a310fe59cdd6872",
-    "url": "/cv/static/js/main.29af0a31.chunk.js"
+    "revision": "bbc0aa5f8530a6b98801",
+    "url": "/cv/static/js/main.bbc0aa5f.chunk.js"
   },
   {
     "revision": "b22727a41a037fbfb3e6",
@@ -24,11 +24,11 @@ self.__precacheManifest = [
     "url": "/cv/static/media/ElizavetaCV.6b2244a0.jpg"
   },
   {
-    "revision": "1cb6bd507ab13a4ce82ced5325099c00",
-    "url": "/cv/static/media/CV_Elizaveta_Patrusheva.1cb6bd50.pdf"
+    "revision": "a90408bbe4af408956077d3ee7014212",
+    "url": "/cv/static/media/CV_Elizaveta_Patrusheva.a90408bb.pdf"
   },
   {
-    "revision": "d4e046337b912748b7649b689dd57e4d",
+    "revision": "f150a5a56cb114311e84a9d6fc97e84a",
     "url": "/cv/index.html"
   }
 ];
