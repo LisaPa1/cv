@@ -5,13 +5,13 @@ class Pres extends Component {
     return (
       <div className="mainPage">
         <div className="mainItem">
-        <h2>Compétences :</h2>
+          <h2>Compétences :</h2>
           <ul>
             <li>React (Redux, Context, Hooks)</li>
-            <li>Javascript ES6</li>
+            <li>JavaScript ES6</li>
+            <li>TypeScript</li>
             <li>Node.js</li>
             <li>MySQL</li>
-            <li>TypeScript</li>
             <li>Git - Github / Bitbucket</li>
             <li>HTML / CSS / Bootstrap / Material-UI</li>
             <li>Méthode Agile - SCRUM</li>
@@ -19,7 +19,23 @@ class Pres extends Component {
         </div>
 
         <div className="mainItem">
-        <h2>Expériences professionnelles</h2>
+          <h2>Expériences professionnelles</h2>
+          <h3>Full time mom</h3>
+          <p>Septembre 2021 à ce jour</p>
+          <p>Congé parental</p>
+        </div>
+        <div className="mainItem">
+          <h3>Développeuse Front-End</h3>
+          <p>Janvier 2020 - Août 2021</p>
+          <p>Fulll, Groupe InExtenso - Lyon, France</p>
+          <p>Éditeur de logiciels pour les experts comptables</p>
+          <ul>
+            <li>Réalisation d’une application dédiée au domaine de la paie</li>
+            <li>Développement d’une bibliothèque de composants UI</li>
+            <li>Mise en place des tests fonctionnels et techniques</li>
+          </ul>
+        </div>
+        <div className="mainItem">
           <h3>Développeuse Front-End</h3>
           <p>Février 2019 - Septembre 2019</p>
           <p>Aixia Systèmes - Limonest, France</p>
@@ -100,7 +116,7 @@ class Pres extends Component {
         </div>
 
         <div className="mainItem">
-        <h2>Formation</h2>
+          <h2>Formation</h2>
           <h3>Développement Web - JavaScript</h3>
           <p>Wild Code School de Lyon</p>
           <p>Septembre 2018 - Janvier 2019</p>

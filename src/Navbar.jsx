@@ -19,7 +19,7 @@ class Navbar extends Component {
             <NavItem className="navbarPhoto">
               <TypedName />
               <p className="navDescription">
-                Développeuse Web
+                Développeuse Front-End
               </p>
             </NavItem>
           </div>
